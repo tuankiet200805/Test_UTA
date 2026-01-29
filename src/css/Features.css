@@ -12,7 +12,6 @@
     opacity: 1;
 }
 
-
 .swiper-pagination-bullet-active {
     background: var(--mmed-blue);
     width: 25px;
@@ -20,7 +19,9 @@
     transition: width 0.3s;
 }
 
-
+.t-center{
+    text-align: center;
+}
 .feature-card {
     height: 100%;
 }

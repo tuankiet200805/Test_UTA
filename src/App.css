@@ -51,5 +51,7 @@ h1 {
     max-width: 40%;
     margin-bottom: 10px;
   }
-
+  .main-container {
+    text-align: center;
+  }
 }

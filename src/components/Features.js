@@ -118,10 +118,10 @@ const Features = () => {
               <div className="feature-card bg-white rounded-4 p-4 p-lg-5 shadow-sm border">
                 <div className="row align-items-center">
                   <div className="col-lg-4 mb-4 mb-lg-0 border-end-lg">
-                    <h3 className="fw-bold mb-3" style={{ color: "#103982" }}>
+                    <h3 className="fw-bold mb-3 t-center" style={{ color: "#103982" }}>
                       {slide.mainTitle}
                     </h3>
-                    <p className="text-secondary mb-0">{slide.mainDesc}</p>
+                    <p className="text-secondary mb-0 t-center">{slide.mainDesc}</p>
                   </div>
 
                   <div className="col-lg-8 ps-lg-5">
