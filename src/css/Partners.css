@@ -1,0 +1,39 @@
+.partners-title {
+    color: #103982;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.partners-grid {
+    gap: 30px;
+}
+
+.partner-circle {
+    width: 190px;
+    height: 190px;
+    min-width: 190px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.partner-circle:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.partner-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.partner-placeholder {
+    width: 60%;
+    height: 60%;
+}

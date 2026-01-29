@@ -1,0 +1,9 @@
+background logo: #00C0F3
+
+btn: #103982
+
+background: #D9F5F9
+
+background contact: #F0FBFE
+
+tron tron: #D9D9D9

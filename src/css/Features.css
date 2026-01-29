@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    .border-end-lg {
+        border-right: 1px solid #eee;
+        padding-right: 10px;
+    }
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    opacity: 1;
+}
+
+
+.swiper-pagination-bullet-active {
+    background: var(--mmed-blue);
+    width: 25px;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+
+.feature-card {
+    height: 100%;
+}

@@ -1,38 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+  --mmed-blue: #103982;
+  --mmed-cyan: #00BAF2;
+  --mmed-bg: #D9F5F9;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+  background-color: var(--mmed-bg);
+  
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color: var(--mmed-blue);
+  font-size: 48px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  overflow-x: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.description-text {
+  color: #555;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.phone-img-shadow {
+  max-width: 290px;
+  height: 601px;
+}
+@media (max-width: 991px) {
+
+  .phone-img-shadow {
+    height: auto;
+    max-width: 40%;
+    margin-bottom: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }

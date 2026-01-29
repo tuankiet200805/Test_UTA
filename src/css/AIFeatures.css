@@ -1,0 +1,28 @@
+.ai-title {
+    color: #103982;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+}
+
+.ai-icon {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+.ai-feature-title {
+    color: #103982;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ai-feature-item {
+    transition: transform 0.3s ease;
+}
+
+.ai-feature-item:hover {
+    transform: translateY(-5px);
+}

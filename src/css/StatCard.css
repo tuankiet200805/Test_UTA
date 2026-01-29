@@ -1,0 +1,32 @@
+.stat-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stat-icon {
+    max-width: 95px;
+    height: 54px;
+    object-fit: contain;
+}
+
+.stat-number {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--mmed-blue);
+    margin-bottom: 0;
+}
+
+.stat-label {
+    text-align: center;
+    font-size: 10px;
+    color: var(--mmed-blue);
+    margin: 0;
+}
