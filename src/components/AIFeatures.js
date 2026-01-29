@@ -57,7 +57,6 @@ const AIFeatures = () => {
           </h2>
           <p
             className="ai-subtitle text-secondary"
-            style={{ maxWidth: "800px" }}
           >
             Chúng tôi tận dụng AI tiên tiến để gợi ý khóa học, bài viết y khoa,
             webinar và case lâm sàng phù hợp với chuyên môn và hành vi học tập

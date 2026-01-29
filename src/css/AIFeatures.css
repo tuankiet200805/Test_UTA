@@ -3,7 +3,9 @@
     font-family: 'Merriweather', serif;
     font-size: 40px;
 }
-
+.ai-subtitle {
+    font-size: 24px;
+}
 .ai-icon {
     height: 60px;
     width: auto;

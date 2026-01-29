@@ -40,7 +40,7 @@ function App() {
       <div className="main-container">
         <div className="container main-container py-5 mt-4">
           <div className="row align-items-center">
-            <div className="col-lg-4 text-center mb-5 mb-lg-0">
+            <div className="col-lg-5 text-center mb-5 mb-lg-0">
               <img
                 src="/img/Mobile-app.png"
                 alt="MMed App"
@@ -48,8 +48,8 @@ function App() {
               />
             </div>
 
-            <div className="col-lg-8 ps-lg-5">
-              <h1 className="display-4 fw-bold mb-4">
+            <div className="col-lg-7 ps-lg-5">
+              <h1 className=" fw-bold mb-4">
                 Trao quyền cho đội ngũ y tế Kết Nối, Nâng Tầm, Dẫn Đầu
               </h1>
               <p className="description-text mb-5">
